@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="center_vertical" android:padding="8dp"
+    android:minHeight="70dp">
+    <ImageView android:id="@+id/ivMiniatura" android:layout_width="54dp"
+        android:layout_height="54dp" android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:contentDescription="Imagen del contacto"/>
+    <LinearLayout android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:paddingStart="12dp">
+        <TextView android:id="@+id/tvNombreItem" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textStyle="bold"
+            android:textColor="#152B45" android:textSize="16sp"/>
+        <TextView android:id="@+id/tvTelefonoItem" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#304E64"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>

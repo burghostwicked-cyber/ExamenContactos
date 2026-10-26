@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.ExamenContactos" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#168A50</item>
+        <item name="colorPrimaryDark">#096534</item>
+        <item name="colorAccent">#1676C6</item>
+        <item name="android:statusBarColor">#096534</item>
+        <item name="android:navigationBarColor">#F2F6FA</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
